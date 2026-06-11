@@ -18,7 +18,7 @@ New-ItemProperty `
     -Path $RegPath `
     -Name "ProcessEvenIfGPOsHaveNotChanged" `
     -PropertyType DWord `
-    -Value 1 `
+    -Value 0 `
     -Force | Out-Null
 
 gpupdate /force
@@ -37,12 +37,16 @@ Run:
 ```powershell
 Get-ItemProperty `
 -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\System"
+-Name NoGPOListChanges
+
+
 ```
 
 Expected result:
 
 ```text
-ProcessEvenIfGPOsHaveNotChanged : 1
+
+NoGPOListChanges : 0
 ```
 
 ---
@@ -62,7 +66,7 @@ Computer Configuration
 → Administrative Templates
 → System
 → Group Policy
-→ Configure security policy processing
+→ Configure Registry policy processing
 
 State: Enabled
 Process even if the Group Policy objects have not changed: Enabled
