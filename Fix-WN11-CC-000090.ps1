@@ -1,6 +1,4 @@
 # PowerShell Auto Remediation
-
-```powershell
 <#
 STIG: WN11-CC-000090
 Configure Security Policy Processing
