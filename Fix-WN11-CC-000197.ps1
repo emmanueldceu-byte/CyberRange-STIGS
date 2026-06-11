@@ -124,4 +124,4 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\CloudContent" 
 gpupdate /force
 ```
 
-which satisfies the STIG requirement.
+
