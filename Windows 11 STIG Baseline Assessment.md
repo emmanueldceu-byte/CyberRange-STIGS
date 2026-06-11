@@ -24,3 +24,12 @@ Remediation Plan:
 
 
 Current compliance status: 38% passed (100/263 checks).
+
+# IMAGES#
+<img width="917" height="604" alt="Screenshot (148)" src="https://github.com/user-attachments/assets/83bb3ebb-1ff7-44fb-8519-2ac723898630" />
+
+<img width="920" height="604" alt="Screenshot (150)" src="https://github.com/user-attachments/assets/5521630b-baab-4590-aabc-593312dac8b2" />
+
+<img width="920" height="604" alt="Screenshot (151)" src="https://github.com/user-attachments/assets/d5b81248-cb40-4a0c-9282-1dc39a78aaa1" />
+
+
